@@ -1,7 +1,9 @@
-pyfix
+fixipy
 =====
 
-Currently it defines two classes, **Message** and **Flow**.
+fixipy is a toolchain to help you working with Financial Information eXchange messages
+
+Currently fixipy defines two classes, **Message** and **Flow**.
 
 While **Message** implements all functionality for creating, reading, changing FIX message and also search inside a message, **Flow** creates a set of **Message**s, e.g. by reading from a file, and allows to search inside a batch of messages.
 
